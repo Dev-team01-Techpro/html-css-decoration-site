@@ -14,6 +14,8 @@
     --primary-color-hover: #009ca7;
     --color: #f2f2f2;
     --color-hover: #161616;
+    --color1: rgb(0, 186, 201);
+    --color2: rgb(242, 253, 255);
   }
   body {
     background-color: #f2f2f2;
@@ -22,4 +24,46 @@
     width: 90%;
     max-width: 1140px;
     margin: 0 auto;
+  }
+  .topbar {
+    background-color: var(--color1);
+    color: var(--color2);
+    font-size: 15px;
+    display: flex;
+    height: 50px;
+    text-wrap: wrap;
+  }
+  .topbar .top-menu {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .topbar .top-menu .top-left{
+  
+   display:flex;
+    gap:5px;
+   
+     
+  }
+  .topbar .top-menu .top-right{
+      display:flex;
+      gap: 1rem;
+  }
+  .topbar .top-menu .top-right li {
+      list-style: none;
+  }
+  .topbar .top-menu .top-right li a {
+      text-decoration: none;
+      color: var(--color2);
+      transition: color .6s ease-in-out;
+      -webkit-transition: color .6s ease-in-out;
+      -moz-transition: color .6s ease-in-out;
+      -ms-transition: color .6s ease-in-out;
+      -o-transition: color .6s ease-in-out;
+  }
+  .topbar .top-menu .top-right li a:hover {
+      text-decoration: none;
+      color: #000;
   }
