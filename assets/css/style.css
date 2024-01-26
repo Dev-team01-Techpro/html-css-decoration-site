@@ -240,4 +240,111 @@ header .header-info .btns .header-services {
   .card {
     width: 50%;
   }
+}
 /* Eda */
+/*Tuba*/
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(71, 64, 64);
+  color: rgb(190, 184, 184);
+  font-size: 12px;
+  line-height: 2rem;
+}
+
+.footer > .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer > .row .footer-col {
+  width: 24%;
+  padding: 1rem 0;
+}
+
+.cizgi{
+    line-width:20% ;
+    color: blue;
+}
+
+.p1 {
+  padding: 1rem 0;
+}
+
+.about {
+  color: beige;
+}
+
+.btn {
+  padding: 15px;
+  background-color: rgb(26, 141, 131);
+  color: aliceblue;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-align: center;
+  background-color: rgb(71, 64, 64);
+  color: aliceblue;
+  border-color: rgb(247, 249, 252);
+  padding: 15px;
+  border: 1px solid;
+}
+
+.service {
+  color: beige;
+}
+
+.ser a {
+  text-decoration: none;
+  color: grey;
+ line-gap-override: 5px;
+}
+
+.ser a:hover {
+  color: rgb(233, 238, 243);
+  text-decoration: none;
+}
+
+.recent {
+  color: beige;
+}
+
+div a.aRecent {  
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+  padding: 1rem 0;
+}
+
+div a.aRecent:hover {
+  color: azure;
+}
+
+.date {
+  font-size: 15px;
+  color: grey;
+}
+.adres {
+  padding: 10px;
+}
+
+div.email a {
+  text-decoration: none;
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.email a:hover {
+  color: beige;
+}
+
+.contact {
+  color: beige;
+}
+
+
+/*Tuba*/
