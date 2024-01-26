@@ -130,7 +130,68 @@ header .header-info .btns .header-services {
 /* Elif */
 
 /* Cahit */
-
+.ana-menu {
+  border-bottom: 2px solid var(--color);
+}
+.border-right {
+  border-right: 2px solid var(--color);
+  padding-right: 2rem;
+}
+.ana-menu .navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.ana-menu .home {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 2rem 2rem 2rem 0;
+}
+.ana-menu .navbar .iki-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.ana-menu .navbar .iki-menu .menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  padding-left: 2rem;
+}
+.ana-menu .navbar .iki-menu .menu a {
+  color: aliceblue;
+}
+.ana-menu .navbar .iki-menu .social-menu {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 2rem 1.5rem 0;
+}
+.social-menu li {
+  background-color: rgb(208, 211, 214);
+  padding: 5px;
+  border-radius: 5px;
+}
+.social-menu a {
+  color: black;
+}
+.sepet {
+  padding: 1.8rem 2rem;
+}
+.sepet a {
+  text-align: center;
+  color: aqua;
+}
+.src {
+  padding: 1rem 0 1rem 2rem;
+}
+.src a {
+  color: aqua;
+}
 /* Cahit */
 
 /* Eda */
