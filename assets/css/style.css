@@ -26,6 +26,7 @@ body {
   max-width: 1320px;
   margin: 0 auto;
 }
+/* --------------------------------------------- */
 /* Şule */
 .topbar {
   background-color: var(--color1);
@@ -65,7 +66,7 @@ body {
   color: #000;
 }
 /* Şule */
-
+/* --------------------------------------------- */
 /* Elif */
 .header {
   background-image: url(../img/linear-slide.jpg);
@@ -73,6 +74,10 @@ body {
   width: 100%;
   height: 500px;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 4rem;
 }
 .header .header-info {
   color: var(--color);
@@ -87,17 +92,14 @@ body {
 .header .header-info .title-2 {
   color: var(--color);
 }
-
 .header .header-info .text {
   color: #f2f2f2;
 }
-
 .header .header-info .btns {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-
 .btn {
   background-color: var(--primary-color);
   color: var(--color);
@@ -110,13 +112,11 @@ body {
   -ms-transition: background 0.03s ease-in-out;
   -o-transition: background 0.03s ease-in-out;
 }
-
 .btn:hover {
   background-color: var(--primary-color-hover);
   cursor: pointer;
   user-select: none;
 }
-
 header .header-info .btns .header-services {
   border-bottom: 2px solid var(--primary-color);
   cursor: pointer;
@@ -126,9 +126,8 @@ header .header-info .btns .header-services {
   border-bottom: 2px solid var(--primary-color);
   cursor: pointer;
 }
-
 /* Elif */
-
+/* --------------------------------------------- */
 /* Cahit */
 .ana-menu {
   border-bottom: 2px solid var(--color);
@@ -193,7 +192,7 @@ header .header-info .btns .header-services {
   color: aqua;
 }
 /* Cahit */
-
+/* --------------------------------------------- */
 /* Eda */
 .all-cards {
   display: flex;
@@ -221,19 +220,16 @@ header .header-info .btns .header-services {
   padding: 20px;
   text-align: justify;
 }
-
 .card.bir p.baslik {
   font-size: 35px;
   text-align: start;
   margin: 10px;
   margin-top: 20px;
 }
-
 .card.bir div.paragraf {
   position: absolute;
   top: 30%;
 }
-
 .cizgi-1 {
   position: absolute;
   top: 30%;
@@ -252,7 +248,6 @@ header .header-info .btns .header-services {
   background-color: gray;
   opacity: 0.3;
 }
-
 .card.bir button {
   display: flex;
   background-color: rgb(97, 230, 250);
@@ -264,12 +259,10 @@ header .header-info .btns .header-services {
   text-align: center;
   transition: all 0.5s ease-in-out;
 }
-
 .card.bir button:hover {
   background-color: burlywood;
   transform: scale(1.1);
 }
-
 .card.iki {
   background-image: url("/assets/img/house-6115719_1280.jpg");
   background-repeat: no-repeat;
@@ -301,6 +294,7 @@ header .header-info .btns .header-services {
   }
 }
 /* Eda */
+/* --------------------------------------------- */
 /*Tuba*/
 .footer {
   font-family: Arial, Helvetica, sans-serif;
@@ -309,31 +303,25 @@ header .header-info .btns .header-services {
   font-size: 12px;
   line-height: 2rem;
 }
-
 .footer > .row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .footer > .row .footer-col {
   width: 24%;
   padding: 1rem 0;
 }
-
 .cizgi {
   line-width: 20%;
   color: blue;
 }
-
 .p1 {
   padding: 1rem 0;
 }
-
 .about {
   color: beige;
 }
-
 .btn {
   padding: 15px;
   background-color: rgb(26, 141, 131);
@@ -342,7 +330,6 @@ header .header-info .btns .header-services {
   border: none;
   cursor: pointer;
 }
-
 .btn:hover {
   cursor: pointer;
   text-align: center;
@@ -352,37 +339,30 @@ header .header-info .btns .header-services {
   padding: 15px;
   border: 1px solid;
 }
-
 .service {
   color: beige;
 }
-
 .ser a {
   text-decoration: none;
   color: grey;
   line-gap-override: 5px;
 }
-
 .ser a:hover {
   color: rgb(233, 238, 243);
   text-decoration: none;
 }
-
 .recent {
   color: beige;
 }
-
 div a.aRecent {
   font-size: 15px;
   color: grey;
   text-decoration: none;
   padding: 1rem 0;
 }
-
 div a.aRecent:hover {
   color: azure;
 }
-
 .date {
   font-size: 15px;
   color: grey;
@@ -390,19 +370,16 @@ div a.aRecent:hover {
 .adres {
   padding: 10px;
 }
-
 div.email a {
   text-decoration: none;
   color: grey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 div.email a:hover {
   color: beige;
 }
-
 .contact {
   color: beige;
 }
-
 /*Tuba*/
+/* --------------------------------------------- */
