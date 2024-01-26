@@ -133,3 +133,111 @@ header .header-info .btns .header-services {
 }
 
 /* Elif */
+
+/* Eda */
+
+.all-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 70px 10px;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  box-shadow: 2px 2px 10px -2px gray;
+  border-radius: 2px;
+}
+.card div.paragraf {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  line-height: 1.8rem;
+  opacity: 0.6;
+  padding: 20px;
+  text-align: justify;
+}
+
+.card.bir p.baslik {
+  font-size: 35px;
+  text-align: start;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.card.bir div.paragraf {
+  position: absolute;
+  top: 30%;
+}
+
+.cizgi-1 {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  height: 0.2rem;
+  width: 20%;
+  background-color: rgb(97, 230, 250);
+}
+.cizgi-2 {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  display: inline-block;
+  height: 0.2rem;
+  width: 70%;
+  background-color: gray;
+  opacity: 0.3;
+}
+
+.card.bir button {
+  display: flex;
+  background-color: rgb(97, 230, 250);
+  margin: 25px auto;
+  height: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.card.bir button:hover {
+  background-color: burlywood;
+  transform: scale(1.1);
+}
+
+.card.iki {
+  background-image: url("/assets/img/house-6115719_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 50%;
+}
+.card.uc {
+  background-image: url("/assets/img/real-estate-6893060_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 50%;
+}
+.card.dort {
+  background-image: url("/assets/img/polynesia-3021072_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 50%;
+}
+.card > h4 {
+  margin: 50% 20px;
+  color: white;
+  font-size: 25px;
+}
+
+/* MEDIA */
+@media screen and (max-width: 800px) {
+  .card {
+    width: 50%;
+  }
+/* Eda */
