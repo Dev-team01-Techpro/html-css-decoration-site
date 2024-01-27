@@ -67,6 +67,98 @@ body {
 }
 /* Şule */
 /* --------------------------------------------- */
+/*Ismail*/
+.top-contact {
+  background-color: #fff;
+  padding: 2.5rem 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .groups {
+  display: flex;
+  margin: 0  3rem 0 auto;
+  gap: 2rem;
+}
+.container .grup {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-right: 2px solid rgb(239, 228, 228);
+  padding-right: 1rem;
+}
+.container .grup .phonenumber {
+  display: flex;
+  flex-direction: column;
+}
+.container i.fa-solid {
+  font-size: 2rem;
+}
+span.free {
+  color: rgb(224, 18, 138);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+i.fa-regular {
+  font-size: 2rem;
+}
+
+div.clock {
+  color: rgb(0, 186, 201);
+
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button.request {
+  background-color: rgb(0, 186, 201);
+  color: azure;
+  border: none;
+  font-size: 13px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+button.request:hover {
+  background-color: black; /*kücük ekranda calısıyor büyükde calısmıyor?*/
+  transition: background-color 0.5s linear;
+}
+.vertical-line {
+  height: 100px; /* Çizginin yüksekliği */
+  width: 1px; /* Çizginin genişliği */
+  background-color: black; /* Çizginin rengi */
+}
+
+@media screen and (max-width: 992px) {
+  img.picture {
+    margin: 20px;
+  }
+
+  div.grup {
+    display: inline-block;
+    font-size: 10rem;
+  }
+
+  div.call,
+  p.phonenumber,
+  p.free,
+  i.fa-regular,
+  div.times,
+  div.clock,
+  button.request {
+    position: relative;
+    top: auto;
+    left: 20px;
+    font-size: 1rem;
+  }
+  i.fa-solid {
+    display: none;
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+  }
+}
+
+/*Ismail*/
+/* --------------------------------------------- */
 /* Elif */
 .header {
   background-image: url(../img/linear-slide.jpg);
@@ -296,118 +388,109 @@ header .header-info .btns .header-services {
 /* Eda */
 /* Duygu */
 
-.product-detail{
+.product-detail {
   flex-wrap: wrap;
 }
 
-.product{
-display: flex;
-margin-bottom: 70px;
+.product {
+  display: flex;
+  margin-bottom: 70px;
 }
 
 @media screen and (max-width: 800px) {
-  .product{
+  .product {
     flex-direction: column;
   }
 }
 
-.details{
-margin-left: 80px;
-padding-top: 50px;
+.details {
+  margin-left: 80px;
+  padding-top: 50px;
 }
 
-
-.details h3{
-font-size: 30px;
-font-weight: 200;
-padding-bottom: 20px;
+.details h3 {
+  font-size: 30px;
+  font-weight: 200;
+  padding-bottom: 20px;
 }
 
-.details h3 + p{
-margin-bottom:25px ;
+.details h3 + p {
+  margin-bottom: 25px;
 }
 
-.details ul{
-list-style-type: none;
+.details ul {
+  list-style-type: none;
 }
 .details ul li {
-margin-top: 25px;
-
+  margin-top: 25px;
 }
-.details ul li a{
-text-decoration: none;
-color: black; 
-}
-
-.details h5{
-display: inline;
-font-size: 20px;
-font-weight: 200;
-padding-left: 8px;
-margin-bottom: 10px;
-cursor: pointer;
-
+.details ul li a {
+  text-decoration: none;
+  color: black;
 }
 
+.details h5 {
+  display: inline;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 
 .hidden {
-max-height: 0;
-overflow: hidden;
-margin-top: 10px;
-transition: max-height 0.3s ease-out;
--webkit-transition: max-height 0.3s ease-out;
--moz-transition: max-height 0.3s ease-out;
--ms-transition: max-height 0.3s ease-out;
--o-transition: max-height 0.3s ease-out;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  transition: max-height 0.3s ease-out;
+  -webkit-transition: max-height 0.3s ease-out;
+  -moz-transition: max-height 0.3s ease-out;
+  -ms-transition: max-height 0.3s ease-out;
+  -o-transition: max-height 0.3s ease-out;
 }
 
-
 #chk-menu1:checked + .hidden {
-max-height: 1000px;
+  max-height: 1000px;
 }
 
 #chk-menu2:checked + .hidden {
-max-height: 1000px;
+  max-height: 1000px;
 }
 
 #chk-menu3:checked + .hidden-text3 {
-max-height: 1000px;
+  max-height: 1000px;
 }
 
 #chk-menu4:checked + .hidden-text4 {
-max-height: 1000px;
+  max-height: 1000px;
 }
 
 #chk-menu5:checked + .hidden-text5 {
-max-height: 1000px;
+  max-height: 1000px;
 }
 
 .toggle-button {
-cursor: pointer;
-background-color: #007bff;
-color: #fff;
-padding: 10px;
-margin: 10px;
-border-radius: 5px;
-display: inline-block;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
-.details p.stripe{
-background-color: rgb(192, 185, 185);
-width: 500px;
-height: 0.2px;
-margin-top: 10px;
+.details p.stripe {
+  background-color: rgb(192, 185, 185);
+  width: 500px;
+  height: 0.2px;
+  margin-top: 10px;
 }
 
-.details ul input[type="checkbox"]{
-display: none;
+.details ul input[type="checkbox"] {
+  display: none;
 }
-
-
 
 /* Duygu */
-
-
 
 /*Tuba*/
 .footer {
