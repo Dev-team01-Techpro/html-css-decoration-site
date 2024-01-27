@@ -294,7 +294,121 @@ header .header-info .btns .header-services {
   }
 }
 /* Eda */
-/* --------------------------------------------- */
+/* Duygu */
+
+.product-detail{
+  flex-wrap: wrap;
+}
+
+.product{
+display: flex;
+margin-bottom: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .product{
+    flex-direction: column;
+  }
+}
+
+.details{
+margin-left: 80px;
+padding-top: 50px;
+}
+
+
+.details h3{
+font-size: 30px;
+font-weight: 200;
+padding-bottom: 20px;
+}
+
+.details h3 + p{
+margin-bottom:25px ;
+}
+
+.details ul{
+list-style-type: none;
+}
+.details ul li {
+margin-top: 25px;
+
+}
+.details ul li a{
+text-decoration: none;
+color: black; 
+}
+
+.details h5{
+display: inline;
+font-size: 20px;
+font-weight: 200;
+padding-left: 8px;
+margin-bottom: 10px;
+cursor: pointer;
+
+}
+
+
+.hidden {
+max-height: 0;
+overflow: hidden;
+margin-top: 10px;
+transition: max-height 0.3s ease-out;
+-webkit-transition: max-height 0.3s ease-out;
+-moz-transition: max-height 0.3s ease-out;
+-ms-transition: max-height 0.3s ease-out;
+-o-transition: max-height 0.3s ease-out;
+}
+
+
+#chk-menu1:checked + .hidden {
+max-height: 1000px;
+}
+
+#chk-menu2:checked + .hidden {
+max-height: 1000px;
+}
+
+#chk-menu3:checked + .hidden-text3 {
+max-height: 1000px;
+}
+
+#chk-menu4:checked + .hidden-text4 {
+max-height: 1000px;
+}
+
+#chk-menu5:checked + .hidden-text5 {
+max-height: 1000px;
+}
+
+.toggle-button {
+cursor: pointer;
+background-color: #007bff;
+color: #fff;
+padding: 10px;
+margin: 10px;
+border-radius: 5px;
+display: inline-block;
+}
+
+.details p.stripe{
+background-color: rgb(192, 185, 185);
+width: 500px;
+height: 0.2px;
+margin-top: 10px;
+}
+
+.details ul input[type="checkbox"]{
+display: none;
+}
+
+
+
+/* Duygu */
+
+
+
 /*Tuba*/
 .footer {
   font-family: Arial, Helvetica, sans-serif;
